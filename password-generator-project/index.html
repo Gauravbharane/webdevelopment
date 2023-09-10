@@ -1,0 +1,50 @@
+<!-- This Site has been made Gauravbharane  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- made by Gaurav Bharane -->
+    <div class="container">
+        <h1>Password Generator</h1>
+        
+        <div class="inputbox">
+            <input type="text" class="passbox" id="passbox" disabled>
+            <span class="copy-content"><button class="copybtn" id="copybtn">copy</button></span>
+        </div>
+
+        <input type="range" max="30" value="8" id="inputslider" checked>
+        <div class="row">
+            <p>password length</p>
+            <span id="slidervalue"></span>
+        </div>
+        <div class="row">
+            <label for="lowercase">Include Lowercase Letters (a-z)</label>
+            <input type="checkbox" name="lowercase" id="lowercase" checked>
+        </div>
+        <div class="row">
+            <label for="uppercase">Include uppercase Letters (A-Z)</label>
+            <input type="checkbox" name="uppercase" id="uppercase" checked>
+        </div>
+        <div class="row">
+            <label for="numbers">Include numbers (0-9)</label>
+            <input type="checkbox" name="numbers" id="numbers" checked>
+        </div>
+        <div class="row">
+            <label for="Symbols">Include Symbols (@-*)</label>
+            <input type="checkbox" name="Symbols" id="Symbols" checked>
+        </div>
+        <button type="button" class="genbtn" id="genbtn">Generate Password</button>
+    </div>
+    <div class="author">
+        <h4>@Developed by- Gaurav Bharane</h4>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
