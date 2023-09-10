@@ -1,0 +1,61 @@
+<!-- developed by Gaurav Bharane -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Salary Package Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- all styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navigation bar -->
+    <div class="topnav">
+        <a href="#" class="active" id="author_name">@Developed by- Gaurav Bharane</a>
+
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="https://linktr.ee/gauravbharane" target="_blank">About</a>
+            <a href="https://www.linkedin.com/in/gaurav-bharane" target="_blank">Contact on LinkedIn 
+            <i class="fa fa-linkedin" ></i></a>
+    </div>
+
+    <!-- "Hamburger menu" or "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+<!-- main -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <div class="card card-body text-center mt-5">
+          <h1 class="heading display-5 pb-3">Salary Package Calculator</h1>
+          <form id="salary-form">
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Annual Salary</span>
+                </div>
+                <input type="number" id="annual-salary" placeholder="Enter annual salary" class="form-control" name="" value="">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Calculate</button>
+          </form>
+          <div id="results" class="mt-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+<!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>

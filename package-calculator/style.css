@@ -1,0 +1,59 @@
+/* Developed by Gaurav Bharane */
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to right bottom,#fcd0d0, #3575cf);
+}
+.card{
+    border-radius: 15px;
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: -1px;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background-color: rgb(255, 249, 238);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #0069d9;
+    display: block;
+    border-color: #0062cc;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    transition: .5s;
+    /* background-color: #ddd; */
+    background: rgb(111, 160, 201);
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+    }
+   
